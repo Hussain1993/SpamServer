@@ -52,11 +52,7 @@ public class SpamEngine implements ServletContextListener{
         }
     }
 
-    /**
-     *
-     * @return
-     * @throws JasenException
-     */
+
     public static JasenScanner getScanner() throws JasenException{
         if(scanner != null && scanner.isAlive())
         {
