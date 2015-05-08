@@ -19,8 +19,6 @@
                     <configuration>
                         <webXml>src/main/webapp/web.xml</webXml>
                         <warName>SpamServer</warName>
-                        <!-- Remove this directory when doing the final release -->
-                        <outputDirectory>/Users/Hussain/Developer/apache-tomcat-8.0.12/webapps</outputDirectory>
                     </configuration>
                 </plugin>
             </plugins>
